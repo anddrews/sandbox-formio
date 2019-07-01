@@ -8,13 +8,16 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://unpkg.com/formiojs@latest/dist/formio.full.min.css'>
   <link rel='stylesheet' href='./css/main.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.1.2/css/intlTelInput.css">
 
   <title>Document</title>
 </head>
 <body>
-  <div  id="test" class="form-container" data-user-name="userName" data-user-email="user@email.com" data-form-name="TestForm">
-    <script src='https://unpkg.com/formiojs@latest/dist/formio.full.min.js' async></script>
+    <script src='http://localhost:3000/static/js/formio.bundle.js' async></script>
+    <script src='http://localhost:3000/static/js/vendors~formio~index.chunk.js' async></script>
+    <script src='http://localhost:3000/static/js/formio~index.chunk.js' async></script>
     <script src="./js/main.js" async></script>
-  </div>
+    <div  id="test" class="form-container" data-user-name="userName" data-user-email="user@email.com" data-form-name="112233">
+    </div>
 </body>
 </html>
